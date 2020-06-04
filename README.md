@@ -3,7 +3,7 @@ Bitcoin core docker image
 Bitcoin core server builds (no GUI, no wallet) 
 
 
-Builds: bitcoin-core:latest - v0.17.1 bitcoin-core:v0.17.1
+Builds: bitcoin-core:latest - v0.20.0 bitcoin-core:v0.20.0
 
 How to use:
 
@@ -45,7 +45,7 @@ Build docker image:
 
     $ docker build -t bitcoin-core-mainnet .
 
-Start container with autostart
+Start container with auto start:
 
     $ docker run --name bitcoin-core-mainnet \
                  --net=host \
